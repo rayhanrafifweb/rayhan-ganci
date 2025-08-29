@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Contact - FolioOne Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="contact-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <!-- <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+      <img src="assets/img/logo.webp" alt="">
+      <h1 class="sitename">FolioOne</h1> 
+    </a> -->
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Produk</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Hubungi Kami</h2>
+        <p>Kami siap membantu kamu untuk membuat gantungan kunci kustom sesuai keinginan.
+          Klik tombol WhatsApp di bawah untuk langsung memesan atau bertanya lebih lanjut.</p>
+      </div><!-- End Section Title -->
+
+      <div class="promo-box p-3 bg-warning text-dark rounded text-center fw-bold">
+        🎁 Promo Spesial: Beli 3 gantungan kunci, GRATIS 1 stiker!
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-4">
+
+          <!-- Bagian Informasi (col-5) -->
+          <div class="col-lg-5 col-md-12">
+            <div class="info-box h-100 p-4" data-aos="fade-up" data-aos-delay="200">
+              <h3>Informasi Kontak</h3>
+              <p>Hubungi kami lewat WhatsApp atau email berikut:</p>
+
+              <div class="info-item mt-3">
+                <i class="bi bi-geo-alt"></i>
+                <span>Dukuh Sapen, Mojolaban, Sukoharjo</span>
+              </div>
+
+              <div class="info-item mt-3">
+                <i class="bi bi-telephone"></i>
+                <span>+62 0812-2815-4267 ( Abiyyu )</span>
+              </div>
+
+              <div class="info-item mt-3">
+                <i class="bi bi-telephone" style="color: transparent;"></i>
+                <span>+62 0821-9740-5470 ( Fikri )</span>
+              </div>
+
+              <div class="info-item mt-3">
+                <i class="bi bi-telephone" style="color: transparent;"></i>
+                <span>+62 0813-2529-7375 ( Rayhan )</span>
+              </div>
+
+              <div class="info-item mt-3">
+                <i class="bi bi-envelope"></i>
+                <span>rayhanwiguna2008@gmail.com</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bagian Form (col-7) -->
+          <div class="col-lg-7 col-md-12">
+            <div class="contact-form p-4" data-aos="fade-up" data-aos-delay="300">
+              <h3>Get In Touch</h3>
+              <p>Silakan hubungi kami untuk pemesanan atau pertanyaan seputar gantungan kunci kustom.</p>
+
+              <form id="contactForm" action="https://formspree.io/f/xrbaedzy" method="POST">
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Nama Anda" required>
+                  </div>
+
+                  <div class="col-md-6">
+                    <input type="email" name="email" class="form-control" placeholder="Email Anda" required>
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" name="subject" class="form-control" placeholder="Judul Pesan" required>
+                  </div>
+
+                  <div class="col-12">
+                    <textarea name="message" rows="6" class="form-control" placeholder="Pesan Anda" required></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary px-4">Kirim Pesan</button>
+                  </div>
+                </div>
+              </form>
+
+              <div id="formAlert" style="display:none; margin-top:15px;"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>2025</span> <strong class="px-1 sitename">Kunci Kreatif</strong> <span>All Rights Reserved<br></span>
+        </p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://wa.me/6281325297375?text=Halo saya ingin memesan gantungan kunci kustom"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.instagram.com/al_moonlight_08?igsh=cWc0cjI2aXZya2l3"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-github"></i></a>
+      </div>
+      <div class="credits">
+        Designed by Rayhan Rafif
+      </div>
+    </div>
+
+  </footer>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Modal Success -->
+  <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center p-4">
+        <i class="bi bi-check-circle text-success" style="font-size: 50px;"></i>
+        <h5 class="mt-3">Pesan Berhasil Dikirim!</h5>
+        <button type="button" class="btn btn-success mt-3" data-bs-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Error -->
+  <div class="modal fade" id="errorModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center p-4">
+        <i class="bi bi-x-circle text-danger" style="font-size: 50px;"></i>
+        <h5 class="mt-3">Terjadi Kesalahan, coba lagi!</h5>
+        <button type="button" class="btn btn-danger mt-3" data-bs-dismiss="modal">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById("contactForm");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const formData = new FormData(form);
+
+      try {
+        const response = await fetch(form.action, {
+          method: form.method,
+          body: formData,
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (response.ok) {
+          const successModal = new bootstrap.Modal(document.getElementById('successModal'));
+          successModal.show();
+          form.reset();
+        } else {
+          const errorModal = new bootstrap.Modal(document.getElementById('errorModal'));
+          errorModal.show();
+        }
+      } catch (error) {
+        const errorModal = new bootstrap.Modal(document.getElementById('errorModal'));
+        errorModal.show();
+      }
+    });
+  </script>
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
